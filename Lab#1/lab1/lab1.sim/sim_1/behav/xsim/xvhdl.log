@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/FA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'FA'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/adder_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'adder_2bit_tb'

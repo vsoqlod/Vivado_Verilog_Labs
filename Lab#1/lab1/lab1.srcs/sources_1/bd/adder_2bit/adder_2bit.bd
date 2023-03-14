@@ -1,0 +1,262 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xF700663C536108E7",
+      "device": "xc7k70tfbv676-1",
+      "gen_directory": "../../../../lab1.gen/sources_1/bd/adder_2bit",
+      "name": "adder_2bit",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2021.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "FA_0": "",
+      "FA_1": "",
+      "xlslice_0": "",
+      "xlslice_1": "",
+      "xlslice_2": "",
+      "xlslice_3": "",
+      "xlconstant_0": "",
+      "xlconcat_0": ""
+    },
+    "ports": {
+      "A": {
+        "type": "data",
+        "direction": "I",
+        "left": "1",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "B": {
+        "type": "data",
+        "direction": "I",
+        "left": "1",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "Sum": {
+        "type": "data",
+        "direction": "O",
+        "left": "2",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      }
+    },
+    "components": {
+      "FA_0": {
+        "vlnv": "xilinx.com:module_ref:FA:1.0",
+        "xci_name": "adder_2bit_FA_0_0",
+        "xci_path": "ip\\adder_2bit_FA_0_0\\adder_2bit_FA_0_0.xci",
+        "inst_hier_path": "FA_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "FA",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "A": {
+            "direction": "I"
+          },
+          "B": {
+            "direction": "I"
+          },
+          "Cin": {
+            "direction": "I"
+          },
+          "S": {
+            "direction": "O"
+          },
+          "Cout": {
+            "direction": "O"
+          }
+        }
+      },
+      "FA_1": {
+        "vlnv": "xilinx.com:module_ref:FA:1.0",
+        "xci_name": "adder_2bit_FA_1_0",
+        "xci_path": "ip\\adder_2bit_FA_1_0\\adder_2bit_FA_1_0.xci",
+        "inst_hier_path": "FA_1",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "FA",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "A": {
+            "direction": "I"
+          },
+          "B": {
+            "direction": "I"
+          },
+          "Cin": {
+            "direction": "I"
+          },
+          "S": {
+            "direction": "O"
+          },
+          "Cout": {
+            "direction": "O"
+          }
+        }
+      },
+      "xlslice_0": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "adder_2bit_xlslice_0_0",
+        "xci_path": "ip\\adder_2bit_xlslice_0_0\\adder_2bit_xlslice_0_0.xci",
+        "inst_hier_path": "xlslice_0",
+        "parameters": {
+          "DIN_WIDTH": {
+            "value": "2"
+          }
+        }
+      },
+      "xlslice_1": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "adder_2bit_xlslice_1_0",
+        "xci_path": "ip\\adder_2bit_xlslice_1_0\\adder_2bit_xlslice_1_0.xci",
+        "inst_hier_path": "xlslice_1",
+        "parameters": {
+          "DIN_WIDTH": {
+            "value": "2"
+          }
+        }
+      },
+      "xlslice_2": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "adder_2bit_xlslice_2_0",
+        "xci_path": "ip\\adder_2bit_xlslice_2_0\\adder_2bit_xlslice_2_0.xci",
+        "inst_hier_path": "xlslice_2",
+        "parameters": {
+          "DIN_WIDTH": {
+            "value": "2"
+          }
+        }
+      },
+      "xlslice_3": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "adder_2bit_xlslice_3_0",
+        "xci_path": "ip\\adder_2bit_xlslice_3_0\\adder_2bit_xlslice_3_0.xci",
+        "inst_hier_path": "xlslice_3",
+        "parameters": {
+          "DIN_WIDTH": {
+            "value": "2"
+          }
+        }
+      },
+      "xlconstant_0": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "adder_2bit_xlconstant_0_0",
+        "xci_path": "ip\\adder_2bit_xlconstant_0_0\\adder_2bit_xlconstant_0_0.xci",
+        "inst_hier_path": "xlconstant_0",
+        "parameters": {
+          "CONST_VAL": {
+            "value": "0"
+          }
+        }
+      },
+      "xlconcat_0": {
+        "vlnv": "xilinx.com:ip:xlconcat:2.1",
+        "xci_name": "adder_2bit_xlconcat_0_0",
+        "xci_path": "ip\\adder_2bit_xlconcat_0_0\\adder_2bit_xlconcat_0_0.xci",
+        "inst_hier_path": "xlconcat_0",
+        "parameters": {
+          "NUM_PORTS": {
+            "value": "3"
+          }
+        }
+      }
+    },
+    "nets": {
+      "A_1": {
+        "ports": [
+          "A",
+          "xlslice_0/Din",
+          "xlslice_1/Din"
+        ]
+      },
+      "B_1": {
+        "ports": [
+          "B",
+          "xlslice_2/Din",
+          "xlslice_3/Din"
+        ]
+      },
+      "FA_0_Cout": {
+        "ports": [
+          "FA_0/Cout",
+          "FA_1/Cin"
+        ]
+      },
+      "FA_0_S": {
+        "ports": [
+          "FA_0/S",
+          "xlconcat_0/In0"
+        ]
+      },
+      "FA_1_Cout": {
+        "ports": [
+          "FA_1/Cout",
+          "xlconcat_0/In2"
+        ]
+      },
+      "FA_1_S": {
+        "ports": [
+          "FA_1/S",
+          "xlconcat_0/In1"
+        ]
+      },
+      "xlconcat_0_dout": {
+        "ports": [
+          "xlconcat_0/dout",
+          "Sum"
+        ]
+      },
+      "xlconstant_0_dout": {
+        "ports": [
+          "xlconstant_0/dout",
+          "FA_0/Cin"
+        ]
+      },
+      "xlslice_0_Dout": {
+        "ports": [
+          "xlslice_0/Dout",
+          "FA_0/A"
+        ]
+      },
+      "xlslice_1_Dout": {
+        "ports": [
+          "xlslice_1/Dout",
+          "FA_1/A"
+        ]
+      },
+      "xlslice_2_Dout": {
+        "ports": [
+          "xlslice_2/Dout",
+          "FA_0/B"
+        ]
+      },
+      "xlslice_3_Dout": {
+        "ports": [
+          "xlslice_3/Dout",
+          "FA_1/B"
+        ]
+      }
+    }
+  }
+}

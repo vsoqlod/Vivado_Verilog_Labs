@@ -1,0 +1,31 @@
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto a04dffb762bd42028ae52a325cf60209 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlslice_v1_0_2 -L xlconstant_v1_1_7 -L xlconcat_v2_1_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot adder_2bit_tb_behav xil_defaultlib.adder_2bit_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling module xil_defaultlib.adder_2bit_FA_0_0
+Compiling module xil_defaultlib.adder_2bit_FA_1_0
+Compiling module xlconcat_v2_1_4.xlconcat_v2_1_4_xlconcat(dout_wi...
+Compiling module xil_defaultlib.adder_2bit_xlconcat_0_0
+Compiling module xlconstant_v1_1_7.xlconstant_v1_1_7_xlconstant(CON...
+Compiling module xil_defaultlib.adder_2bit_xlconstant_0_0
+Compiling module xlslice_v1_0_2.xlslice_v1_0_2_xlslice(DIN_WIDTH...
+Compiling module xil_defaultlib.adder_2bit_xlslice_0_0
+Compiling module xil_defaultlib.adder_2bit_xlslice_1_0
+Compiling module xil_defaultlib.adder_2bit_xlslice_2_0
+Compiling module xil_defaultlib.adder_2bit_xlslice_3_0
+Compiling module xil_defaultlib.adder_2bit
+Compiling module xil_defaultlib.adder_2bit_wrapper
+Compiling architecture behavioral of entity xil_defaultlib.adder_2bit_tb
+Built simulation snapshot adder_2bit_tb_behav

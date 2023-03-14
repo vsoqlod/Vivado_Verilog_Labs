@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"adder_2bit": {
+			"proto_instances": {
+			}
+		}
+	}
+}
