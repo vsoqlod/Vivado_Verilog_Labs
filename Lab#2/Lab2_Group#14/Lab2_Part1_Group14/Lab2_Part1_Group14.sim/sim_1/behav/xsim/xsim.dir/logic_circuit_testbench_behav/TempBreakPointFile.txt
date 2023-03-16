@@ -1,0 +1,3 @@
+Breakpoint File Version 1.0
+60,true,"C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part1_Group14/Lab2_Part1_Group14.srcs/sim_1/new/logic_circuit_testbench.vhd"
+62,true,"C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part1_Group14/Lab2_Part1_Group14.srcs/sim_1/new/logic_circuit_testbench.vhd"

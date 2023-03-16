@@ -1,0 +1,223 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Tue Nov  1 00:20:28 2022
+# Process ID: 22668
+# Current directory: C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group141
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent29852 C:\Users\vsoql\OneDrive\Desktop\CECS341\Xilinx stuff\Lab2_Part2_Group141\Lab2_Part2_Group141.xpr
+# Log file: C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group141/vivado.log
+# Journal file: C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group141\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group141/Lab2_Part2_Group141.xpr}
+file mkdir C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group141/Lab2_Part2_Group141.srcs/sim_1/new
+file mkdir C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group141/Lab2_Part2_Group141.srcs/sim_1/new
+file mkdir C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group141/Lab2_Part2_Group141.srcs/sim_1/new
+file mkdir C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group141/Lab2_Part2_Group141.srcs/sim_1/new
+file mkdir C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group141/Lab2_Part2_Group141.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group141/Lab2_Part2_Group141.srcs/sim_1/new
+file mkdir {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group141/Lab2_Part2_Group141.srcs/sim_1/new}
+close [ open {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group141/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd} w ]
+add_files -fileset sim_1 {{C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group141/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd}}
+file mkdir C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group141/Lab2_Part2_Group141.srcs/sources_1/new
+file mkdir C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group141/Lab2_Part2_Group141.srcs/sources_1/new
+file mkdir C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group141/Lab2_Part2_Group141.srcs/sources_1/new
+file mkdir C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group141/Lab2_Part2_Group141.srcs/sources_1/new
+file mkdir C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group141/Lab2_Part2_Group141.srcs/sources_1/new
+file mkdir C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group141/Lab2_Part2_Group141.srcs/sources_1/new
+file mkdir {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group141/Lab2_Part2_Group141.srcs/sources_1/new}
+close [ open {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group141/Lab2_Part2_Group141.srcs/sources_1/new/FA.vhd} w ]
+add_files {{C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group141/Lab2_Part2_Group141.srcs/sources_1/new/FA.vhd}}
+update_compile_order -fileset sources_1
+create_bd_design "design_1"
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group141/Lab2_Part2_Group141.srcs/sources_1/bd/design_1/design_1.bd}
+create_bd_cell -type module -reference FA FA_0
+create_bd_cell -type module -reference FA FA_0
+create_bd_cell -type module -reference FA FA_0
+export_ip_user_files -of_objects  [get_files {{C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group141/Lab2_Part2_Group141.srcs/sources_1/new/FA.vhd}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group141/Lab2_Part2_Group141.srcs/sources_1/new/FA.vhd}}
+file delete -force {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group141/Lab2_Part2_Group141.srcs/sources_1/new/FA.vhd}
+update_compile_order -fileset sources_1
+add_files -norecurse {{C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/FA.vhd}}
+update_compile_order -fileset sources_1
+create_bd_cell -type module -reference FA FA_0
+create_bd_cell -type module -reference FA FA_1
+create_bd_cell -type module -reference FA FA_2
+create_bd_cell -type module -reference FA FA_3
+create_bd_port -dir I -from 3 -to 0 -type data A
+create_bd_port -dir I -from 3 -to 0 -type data B
+set_property location {-455 271} [get_bd_ports B]
+set_property location {-85 204} [get_bd_ports A]
+create_bd_port -dir I -type data C
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:xlslice:1.0 xlslice_0
+endgroup
+set_property -dict [list CONFIG.DIN_WIDTH {4}] [get_bd_cells xlslice_0]
+copy_bd_objs /  [get_bd_cells {xlslice_0}]
+copy_bd_objs /  [get_bd_cells {xlslice_0}]
+copy_bd_objs /  [get_bd_cells {xlslice_0}]
+copy_bd_objs /  [get_bd_cells {xlslice_0}]
+copy_bd_objs /  [get_bd_cells {xlslice_0}]
+copy_bd_objs /  [get_bd_cells {xlslice_0}]
+copy_bd_objs /  [get_bd_cells {xlslice_0}]
+set_property location {1 107 26} [get_bd_cells xlslice_1]
+set_property location {1 103 124} [get_bd_cells xlslice_2]
+set_property location {1 109 205} [get_bd_cells xlslice_3]
+set_property location {1 116 482} [get_bd_cells xlslice_6]
+connect_bd_net [get_bd_ports A] [get_bd_pins xlslice_0/Din]
+connect_bd_net [get_bd_ports A] [get_bd_pins xlslice_1/Din]
+connect_bd_net [get_bd_ports A] [get_bd_pins xlslice_2/Din]
+connect_bd_net [get_bd_ports A] [get_bd_pins xlslice_3/Din]
+connect_bd_net [get_bd_ports B] [get_bd_pins xlslice_4/Din]
+connect_bd_net [get_bd_ports B] [get_bd_pins xlslice_5/Din]
+connect_bd_net [get_bd_ports B] [get_bd_pins xlslice_6/Din]
+connect_bd_net [get_bd_ports B] [get_bd_pins xlslice_7/Din]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:util_vector_logic:2.0 util_vector_logic_0
+endgroup
+set_property location {2 434 -71} [get_bd_cells util_vector_logic_0]
+set_property location {0.5 83 -84} [get_bd_cells util_vector_logic_0]
+undo
+undo
+set_property location {1 241 -192} [get_bd_cells xlslice_0]
+set_property location {2 395 -69} [get_bd_cells util_vector_logic_0]
+set_property location {1 180 -42} [get_bd_cells xlslice_1]
+set_property location {1 173 111} [get_bd_cells xlslice_2]
+set_property location {1 178 264} [get_bd_cells xlslice_3]
+set_property location {1 158 387} [get_bd_cells xlslice_4]
+set_property location {1 170 516} [get_bd_cells xlslice_5]
+set_property location {1 141 635} [get_bd_cells xlslice_6]
+set_property location {1 141 739} [get_bd_cells xlslice_7]
+set_property location {1 167 -141} [get_bd_cells xlslice_0]
+set_property location {1 170 65} [get_bd_cells xlslice_2]
+set_property location {1 172 173} [get_bd_cells xlslice_3]
+set_property location {1 169 306} [get_bd_cells xlslice_4]
+set_property location {1 169 405} [get_bd_cells xlslice_5]
+set_property location {1 166 512} [get_bd_cells xlslice_6]
+set_property location {1 164 619} [get_bd_cells xlslice_7]
+set_property -dict [list CONFIG.C_SIZE {1} CONFIG.C_OPERATION {xor} CONFIG.LOGO_FILE {data/sym_xorgate.png}] [get_bd_cells util_vector_logic_0]
+copy_bd_objs /  [get_bd_cells {util_vector_logic_0}]
+copy_bd_objs /  [get_bd_cells {util_vector_logic_0}]
+copy_bd_objs /  [get_bd_cells {util_vector_logic_0}]
+copy_bd_objs /  [get_bd_cells {util_vector_logic_0}]
+set_property location {3.5 933 562} [get_bd_cells util_vector_logic_4]
+set_property location {2 431 424} [get_bd_cells util_vector_logic_3]
+set_property location {2 427 281} [get_bd_cells util_vector_logic_2]
+set_property location {2 432 135} [get_bd_cells util_vector_logic_1]
+set_property location {2 417 6} [get_bd_cells util_vector_logic_0]
+connect_bd_net [get_bd_pins xlslice_0/Dout] [get_bd_pins FA_0/A]
+connect_bd_net [get_bd_pins xlslice_1/Dout] [get_bd_pins FA_1/A]
+connect_bd_net [get_bd_pins xlslice_2/Dout] [get_bd_pins FA_2/A]
+connect_bd_net [get_bd_pins xlslice_3/Dout] [get_bd_pins FA_3/A]
+connect_bd_net [get_bd_pins xlslice_4/Dout] [get_bd_pins util_vector_logic_0/Op1]
+connect_bd_net [get_bd_pins xlslice_5/Dout] [get_bd_pins util_vector_logic_1/Op1]
+connect_bd_net [get_bd_pins xlslice_6/Dout] [get_bd_pins util_vector_logic_2/Op1]
+connect_bd_net [get_bd_pins xlslice_7/Dout] [get_bd_pins util_vector_logic_3/Op1]
+set_property location {-90 50} [get_bd_ports C]
+set_property location {-90 40} [get_bd_ports C]
+set_property location {-90 30} [get_bd_ports C]
+set_property location {-90 20} [get_bd_ports C]
+set_property location {-90 10} [get_bd_ports C]
+set_property location {-90 0} [get_bd_ports C]
+set_property location {-90 -10} [get_bd_ports C]
+set_property location {-90 -20} [get_bd_ports C]
+set_property location {-90 -30} [get_bd_ports C]
+set_property location {-90 -40} [get_bd_ports C]
+set_property location {-90 -50} [get_bd_ports C]
+set_property location {-90 -60} [get_bd_ports C]
+set_property location {-90 -70} [get_bd_ports C]
+set_property location {-90 -80} [get_bd_ports C]
+set_property location {-90 -90} [get_bd_ports C]
+set_property location {-90 -100} [get_bd_ports C]
+set_property location {-90 -110} [get_bd_ports C]
+set_property location {-90 -120} [get_bd_ports C]
+set_property location {-90 -130} [get_bd_ports C]
+set_property location {-90 -140} [get_bd_ports C]
+set_property location {-90 -150} [get_bd_ports C]
+set_property location {-90 -160} [get_bd_ports C]
+set_property location {-90 -170} [get_bd_ports C]
+set_property location {-90 -180} [get_bd_ports C]
+set_property location {-90 -190} [get_bd_ports C]
+set_property location {-90 -200} [get_bd_ports C]
+set_property location {-90 -190} [get_bd_ports C]
+connect_bd_net [get_bd_ports C] [get_bd_pins util_vector_logic_0/Op2]
+connect_bd_net [get_bd_ports C] [get_bd_pins util_vector_logic_1/Op2]
+connect_bd_net [get_bd_ports C] [get_bd_pins util_vector_logic_2/Op2]
+connect_bd_net [get_bd_ports C] [get_bd_pins util_vector_logic_3/Op2]
+connect_bd_net [get_bd_ports C] [get_bd_pins FA_0/Cin]
+connect_bd_net [get_bd_pins util_vector_logic_0/Res] [get_bd_pins FA_0/B]
+connect_bd_net [get_bd_pins util_vector_logic_1/Res] [get_bd_pins FA_1/B]
+connect_bd_net [get_bd_pins util_vector_logic_2/Res] [get_bd_pins FA_2/B]
+connect_bd_net [get_bd_pins util_vector_logic_3/Res] [get_bd_pins FA_3/B]
+connect_bd_net [get_bd_pins FA_0/Cout] [get_bd_pins FA_1/Cin]
+connect_bd_net [get_bd_pins FA_1/Cout] [get_bd_pins FA_2/Cin]
+connect_bd_net [get_bd_pins FA_2/Cout] [get_bd_pins FA_3/Cin]
+connect_bd_net [get_bd_pins FA_3/Cout] [get_bd_pins util_vector_logic_4/Op2]
+connect_bd_net [get_bd_pins FA_0/S] [get_bd_pins util_vector_logic_4/Op1]
+delete_bd_objs [get_bd_nets FA_0_S]
+connect_bd_net [get_bd_ports C] [get_bd_pins util_vector_logic_4/Op1]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:xlconcat:2.1 xlconcat_0
+endgroup
+set_property location {5 1078 206} [get_bd_cells xlconcat_0]
+set_property -dict [list CONFIG.NUM_PORTS {5}] [get_bd_cells xlconcat_0]
+connect_bd_net [get_bd_pins FA_0/S] [get_bd_pins xlconcat_0/In0]
+connect_bd_net [get_bd_pins FA_1/S] [get_bd_pins xlconcat_0/In1]
+connect_bd_net [get_bd_pins FA_2/S] [get_bd_pins xlconcat_0/In2]
+connect_bd_net [get_bd_pins FA_3/S] [get_bd_pins xlconcat_0/In3]
+connect_bd_net [get_bd_pins util_vector_logic_4/Res] [get_bd_pins xlconcat_0/In4]
+create_bd_port -dir O -from 4 -to 0 -type data S
+set_property location {1300 140} [get_bd_ports S]
+set_property location {1300 150} [get_bd_ports S]
+set_property location {1300 160} [get_bd_ports S]
+set_property location {1300 170} [get_bd_ports S]
+set_property location {1300 180} [get_bd_ports S]
+set_property location {1300 190} [get_bd_ports S]
+set_property location {1300 200} [get_bd_ports S]
+set_property location {1300 210} [get_bd_ports S]
+startgroup
+connect_bd_net [get_bd_ports S] [get_bd_pins xlconcat_0/dout]
+endgroup
+set_property name Sum [get_bd_ports S]
+save_bd_design
+make_wrapper -files [get_files {{C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group141/Lab2_Part2_Group141.srcs/sources_1/bd/design_1/design_1.bd}}] -top
+add_files -norecurse {{c:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group141/Lab2_Part2_Group141.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+generate_target all [get_files  {{C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group141/Lab2_Part2_Group141.srcs/sources_1/bd/design_1/design_1.bd}}]
+catch { config_ip_cache -export [get_ips -all design_1_FA_0_0] }
+catch { config_ip_cache -export [get_ips -all design_1_FA_1_0] }
+catch { config_ip_cache -export [get_ips -all design_1_FA_2_0] }
+catch { config_ip_cache -export [get_ips -all design_1_FA_3_0] }
+catch { config_ip_cache -export [get_ips -all design_1_util_vector_logic_0_0] }
+catch { config_ip_cache -export [get_ips -all design_1_util_vector_logic_0_1] }
+catch { config_ip_cache -export [get_ips -all design_1_util_vector_logic_0_2] }
+catch { config_ip_cache -export [get_ips -all design_1_util_vector_logic_0_3] }
+catch { config_ip_cache -export [get_ips -all design_1_util_vector_logic_0_4] }
+export_ip_user_files -of_objects [get_files {{C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group141/Lab2_Part2_Group141.srcs/sources_1/bd/design_1/design_1.bd}}] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] {{C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group141/Lab2_Part2_Group141.srcs/sources_1/bd/design_1/design_1.bd}}]
+launch_runs design_1_FA_0_0_synth_1 design_1_FA_1_0_synth_1 design_1_FA_2_0_synth_1 design_1_FA_3_0_synth_1 design_1_util_vector_logic_0_0_synth_1 design_1_util_vector_logic_0_1_synth_1 design_1_util_vector_logic_0_2_synth_1 design_1_util_vector_logic_0_3_synth_1 design_1_util_vector_logic_0_4_synth_1 -jobs 4
+wait_on_run design_1_FA_0_0_synth_1
+wait_on_run design_1_FA_1_0_synth_1
+wait_on_run design_1_FA_2_0_synth_1
+wait_on_run design_1_FA_3_0_synth_1
+wait_on_run design_1_util_vector_logic_0_0_synth_1
+wait_on_run design_1_util_vector_logic_0_1_synth_1
+wait_on_run design_1_util_vector_logic_0_2_synth_1
+wait_on_run design_1_util_vector_logic_0_3_synth_1
+wait_on_run design_1_util_vector_logic_0_4_synth_1
+export_simulation -of_objects [get_files {{C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group141/Lab2_Part2_Group141.srcs/sources_1/bd/design_1/design_1.bd}}] -directory {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group141/Lab2_Part2_Group141.ip_user_files/sim_scripts} -ip_user_files_dir {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group141/Lab2_Part2_Group141.ip_user_files} -ipstatic_source_dir {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group141/Lab2_Part2_Group141.ip_user_files/ipstatic} -lib_map_path [list {modelsim=C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group141/Lab2_Part2_Group141.cache/compile_simlib/modelsim} {questa=C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group141/Lab2_Part2_Group141.cache/compile_simlib/questa} {riviera=C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group141/Lab2_Part2_Group141.cache/compile_simlib/riviera} {activehdl=C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group141/Lab2_Part2_Group141.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sim_1
+launch_simulation
+source add4.tcl
+close_sim
+launch_simulation
+source add4.tcl
+close_sim
+launch_simulation
+source add4.tcl
+close_sim

@@ -1,0 +1,584 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xF3BCBF39CF6AED48",
+      "device": "xc7k70tfbv676-1",
+      "gen_directory": "../../../../Lab2_Part2_Group141.gen/sources_1/bd/design_1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2021.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "FA_0": "",
+      "FA_1": "",
+      "FA_2": "",
+      "FA_3": "",
+      "xlslice_0": "",
+      "xlslice_1": "",
+      "xlslice_2": "",
+      "xlslice_3": "",
+      "xlslice_4": "",
+      "xlslice_5": "",
+      "xlslice_6": "",
+      "xlslice_7": "",
+      "util_vector_logic_0": "",
+      "util_vector_logic_1": "",
+      "util_vector_logic_2": "",
+      "util_vector_logic_3": "",
+      "util_vector_logic_4": "",
+      "xlconcat_0": ""
+    },
+    "ports": {
+      "A": {
+        "type": "data",
+        "direction": "I",
+        "left": "3",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "B": {
+        "type": "data",
+        "direction": "I",
+        "left": "3",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "C": {
+        "type": "data",
+        "direction": "I",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "Sum": {
+        "type": "data",
+        "direction": "O",
+        "left": "4",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      }
+    },
+    "components": {
+      "FA_0": {
+        "vlnv": "xilinx.com:module_ref:FA:1.0",
+        "xci_name": "design_1_FA_0_0",
+        "xci_path": "ip\\design_1_FA_0_0\\design_1_FA_0_0.xci",
+        "inst_hier_path": "FA_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "FA",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "A": {
+            "direction": "I"
+          },
+          "B": {
+            "direction": "I",
+            "parameters": {
+              "PortType": {
+                "value": "data",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "Cin": {
+            "direction": "I",
+            "parameters": {
+              "LAYERED_METADATA": {
+                "value": "undef",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "S": {
+            "direction": "O"
+          },
+          "Cout": {
+            "direction": "O"
+          }
+        }
+      },
+      "FA_1": {
+        "vlnv": "xilinx.com:module_ref:FA:1.0",
+        "xci_name": "design_1_FA_1_0",
+        "xci_path": "ip\\design_1_FA_1_0\\design_1_FA_1_0.xci",
+        "inst_hier_path": "FA_1",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "FA",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "A": {
+            "direction": "I"
+          },
+          "B": {
+            "direction": "I",
+            "parameters": {
+              "PortType": {
+                "value": "data",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "Cin": {
+            "direction": "I"
+          },
+          "S": {
+            "direction": "O"
+          },
+          "Cout": {
+            "direction": "O"
+          }
+        }
+      },
+      "FA_2": {
+        "vlnv": "xilinx.com:module_ref:FA:1.0",
+        "xci_name": "design_1_FA_2_0",
+        "xci_path": "ip\\design_1_FA_2_0\\design_1_FA_2_0.xci",
+        "inst_hier_path": "FA_2",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "FA",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "A": {
+            "direction": "I"
+          },
+          "B": {
+            "direction": "I",
+            "parameters": {
+              "PortType": {
+                "value": "data",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "Cin": {
+            "direction": "I"
+          },
+          "S": {
+            "direction": "O"
+          },
+          "Cout": {
+            "direction": "O"
+          }
+        }
+      },
+      "FA_3": {
+        "vlnv": "xilinx.com:module_ref:FA:1.0",
+        "xci_name": "design_1_FA_3_0",
+        "xci_path": "ip\\design_1_FA_3_0\\design_1_FA_3_0.xci",
+        "inst_hier_path": "FA_3",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "FA",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "A": {
+            "direction": "I"
+          },
+          "B": {
+            "direction": "I",
+            "parameters": {
+              "PortType": {
+                "value": "data",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "Cin": {
+            "direction": "I"
+          },
+          "S": {
+            "direction": "O"
+          },
+          "Cout": {
+            "direction": "O",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          }
+        }
+      },
+      "xlslice_0": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "design_1_xlslice_0_0",
+        "xci_path": "ip\\design_1_xlslice_0_0\\design_1_xlslice_0_0.xci",
+        "inst_hier_path": "xlslice_0",
+        "parameters": {
+          "DIN_WIDTH": {
+            "value": "4"
+          }
+        }
+      },
+      "xlslice_1": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "design_1_xlslice_0_1",
+        "xci_path": "ip\\design_1_xlslice_0_1\\design_1_xlslice_0_1.xci",
+        "inst_hier_path": "xlslice_1",
+        "parameters": {
+          "DIN_WIDTH": {
+            "value": "4"
+          }
+        }
+      },
+      "xlslice_2": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "design_1_xlslice_0_2",
+        "xci_path": "ip\\design_1_xlslice_0_2\\design_1_xlslice_0_2.xci",
+        "inst_hier_path": "xlslice_2",
+        "parameters": {
+          "DIN_WIDTH": {
+            "value": "4"
+          }
+        }
+      },
+      "xlslice_3": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "design_1_xlslice_0_3",
+        "xci_path": "ip\\design_1_xlslice_0_3\\design_1_xlslice_0_3.xci",
+        "inst_hier_path": "xlslice_3",
+        "parameters": {
+          "DIN_WIDTH": {
+            "value": "4"
+          }
+        }
+      },
+      "xlslice_4": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "design_1_xlslice_0_4",
+        "xci_path": "ip\\design_1_xlslice_0_4\\design_1_xlslice_0_4.xci",
+        "inst_hier_path": "xlslice_4",
+        "parameters": {
+          "DIN_WIDTH": {
+            "value": "4"
+          }
+        }
+      },
+      "xlslice_5": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "design_1_xlslice_0_5",
+        "xci_path": "ip\\design_1_xlslice_0_5\\design_1_xlslice_0_5.xci",
+        "inst_hier_path": "xlslice_5",
+        "parameters": {
+          "DIN_WIDTH": {
+            "value": "4"
+          }
+        }
+      },
+      "xlslice_6": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "design_1_xlslice_0_6",
+        "xci_path": "ip\\design_1_xlslice_0_6\\design_1_xlslice_0_6.xci",
+        "inst_hier_path": "xlslice_6",
+        "parameters": {
+          "DIN_WIDTH": {
+            "value": "4"
+          }
+        }
+      },
+      "xlslice_7": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "design_1_xlslice_0_7",
+        "xci_path": "ip\\design_1_xlslice_0_7\\design_1_xlslice_0_7.xci",
+        "inst_hier_path": "xlslice_7",
+        "parameters": {
+          "DIN_WIDTH": {
+            "value": "4"
+          }
+        }
+      },
+      "util_vector_logic_0": {
+        "vlnv": "xilinx.com:ip:util_vector_logic:2.0",
+        "xci_name": "design_1_util_vector_logic_0_0",
+        "xci_path": "ip\\design_1_util_vector_logic_0_0\\design_1_util_vector_logic_0_0.xci",
+        "inst_hier_path": "util_vector_logic_0",
+        "parameters": {
+          "C_OPERATION": {
+            "value": "xor"
+          },
+          "C_SIZE": {
+            "value": "1"
+          }
+        }
+      },
+      "util_vector_logic_1": {
+        "vlnv": "xilinx.com:ip:util_vector_logic:2.0",
+        "xci_name": "design_1_util_vector_logic_0_1",
+        "xci_path": "ip\\design_1_util_vector_logic_0_1\\design_1_util_vector_logic_0_1.xci",
+        "inst_hier_path": "util_vector_logic_1",
+        "parameters": {
+          "C_OPERATION": {
+            "value": "xor"
+          },
+          "C_SIZE": {
+            "value": "1"
+          }
+        }
+      },
+      "util_vector_logic_2": {
+        "vlnv": "xilinx.com:ip:util_vector_logic:2.0",
+        "xci_name": "design_1_util_vector_logic_0_2",
+        "xci_path": "ip\\design_1_util_vector_logic_0_2\\design_1_util_vector_logic_0_2.xci",
+        "inst_hier_path": "util_vector_logic_2",
+        "parameters": {
+          "C_OPERATION": {
+            "value": "xor"
+          },
+          "C_SIZE": {
+            "value": "1"
+          }
+        }
+      },
+      "util_vector_logic_3": {
+        "vlnv": "xilinx.com:ip:util_vector_logic:2.0",
+        "xci_name": "design_1_util_vector_logic_0_3",
+        "xci_path": "ip\\design_1_util_vector_logic_0_3\\design_1_util_vector_logic_0_3.xci",
+        "inst_hier_path": "util_vector_logic_3",
+        "parameters": {
+          "C_OPERATION": {
+            "value": "xor"
+          },
+          "C_SIZE": {
+            "value": "1"
+          }
+        }
+      },
+      "util_vector_logic_4": {
+        "vlnv": "xilinx.com:ip:util_vector_logic:2.0",
+        "xci_name": "design_1_util_vector_logic_0_4",
+        "xci_path": "ip\\design_1_util_vector_logic_0_4\\design_1_util_vector_logic_0_4.xci",
+        "inst_hier_path": "util_vector_logic_4",
+        "parameters": {
+          "C_OPERATION": {
+            "value": "xor"
+          },
+          "C_SIZE": {
+            "value": "1"
+          }
+        }
+      },
+      "xlconcat_0": {
+        "vlnv": "xilinx.com:ip:xlconcat:2.1",
+        "xci_name": "design_1_xlconcat_0_0",
+        "xci_path": "ip\\design_1_xlconcat_0_0\\design_1_xlconcat_0_0.xci",
+        "inst_hier_path": "xlconcat_0",
+        "parameters": {
+          "NUM_PORTS": {
+            "value": "5"
+          }
+        }
+      }
+    },
+    "nets": {
+      "A_1": {
+        "ports": [
+          "A",
+          "xlslice_0/Din",
+          "xlslice_1/Din",
+          "xlslice_2/Din",
+          "xlslice_3/Din"
+        ]
+      },
+      "B_1": {
+        "ports": [
+          "B",
+          "xlslice_4/Din",
+          "xlslice_5/Din",
+          "xlslice_6/Din",
+          "xlslice_7/Din"
+        ]
+      },
+      "C_1": {
+        "ports": [
+          "C",
+          "util_vector_logic_0/Op2",
+          "util_vector_logic_1/Op2",
+          "util_vector_logic_2/Op2",
+          "util_vector_logic_3/Op2",
+          "FA_0/Cin",
+          "util_vector_logic_4/Op1"
+        ]
+      },
+      "FA_0_Cout": {
+        "ports": [
+          "FA_0/Cout",
+          "FA_1/Cin"
+        ]
+      },
+      "FA_0_S": {
+        "ports": [
+          "FA_0/S",
+          "xlconcat_0/In0"
+        ]
+      },
+      "FA_1_Cout": {
+        "ports": [
+          "FA_1/Cout",
+          "FA_2/Cin"
+        ]
+      },
+      "FA_1_S": {
+        "ports": [
+          "FA_1/S",
+          "xlconcat_0/In1"
+        ]
+      },
+      "FA_2_Cout": {
+        "ports": [
+          "FA_2/Cout",
+          "FA_3/Cin"
+        ]
+      },
+      "FA_2_S": {
+        "ports": [
+          "FA_2/S",
+          "xlconcat_0/In2"
+        ]
+      },
+      "FA_3_Cout": {
+        "ports": [
+          "FA_3/Cout",
+          "util_vector_logic_4/Op2"
+        ]
+      },
+      "FA_3_S": {
+        "ports": [
+          "FA_3/S",
+          "xlconcat_0/In3"
+        ]
+      },
+      "util_vector_logic_0_Res": {
+        "ports": [
+          "util_vector_logic_0/Res",
+          "FA_0/B"
+        ]
+      },
+      "util_vector_logic_1_Res": {
+        "ports": [
+          "util_vector_logic_1/Res",
+          "FA_1/B"
+        ]
+      },
+      "util_vector_logic_2_Res": {
+        "ports": [
+          "util_vector_logic_2/Res",
+          "FA_2/B"
+        ]
+      },
+      "util_vector_logic_3_Res": {
+        "ports": [
+          "util_vector_logic_3/Res",
+          "FA_3/B"
+        ]
+      },
+      "util_vector_logic_4_Res": {
+        "ports": [
+          "util_vector_logic_4/Res",
+          "xlconcat_0/In4"
+        ]
+      },
+      "xlconcat_0_dout": {
+        "ports": [
+          "xlconcat_0/dout",
+          "Sum"
+        ]
+      },
+      "xlslice_0_Dout": {
+        "ports": [
+          "xlslice_0/Dout",
+          "FA_0/A"
+        ]
+      },
+      "xlslice_1_Dout": {
+        "ports": [
+          "xlslice_1/Dout",
+          "FA_1/A"
+        ]
+      },
+      "xlslice_2_Dout": {
+        "ports": [
+          "xlslice_2/Dout",
+          "FA_2/A"
+        ]
+      },
+      "xlslice_3_Dout": {
+        "ports": [
+          "xlslice_3/Dout",
+          "FA_3/A"
+        ]
+      },
+      "xlslice_4_Dout": {
+        "ports": [
+          "xlslice_4/Dout",
+          "util_vector_logic_0/Op1"
+        ]
+      },
+      "xlslice_5_Dout": {
+        "ports": [
+          "xlslice_5/Dout",
+          "util_vector_logic_1/Op1"
+        ]
+      },
+      "xlslice_6_Dout": {
+        "ports": [
+          "xlslice_6/Dout",
+          "util_vector_logic_2/Op1"
+        ]
+      },
+      "xlslice_7_Dout": {
+        "ports": [
+          "xlslice_7/Dout",
+          "util_vector_logic_3/Op1"
+        ]
+      }
+    }
+  }
+}

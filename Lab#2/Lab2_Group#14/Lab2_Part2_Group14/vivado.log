@@ -1,0 +1,431 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Tue Nov  1 04:14:50 2022
+# Process ID: 25396
+# Current directory: C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21260 C:\Users\vsoql\OneDrive\Desktop\CECS341\Xilinx stuff\Lab2_Part2_Group14\Lab2_Part2_Group141.xpr
+# Log file: C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/vivado.log
+# Journal file: C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group141' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:09 . Memory (MB): peak = 1134.906 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'add4'
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Runs 36-567] Checking/generating simulation output products for IPs/BDs (if any)...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2021.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'add4' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj add4_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.ip_user_files/bd/design_1/ip/design_1_FA_0_0/sim/design_1_FA_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_FA_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.ip_user_files/bd/design_1/ip/design_1_FA_1_0/sim/design_1_FA_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_FA_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.ip_user_files/bd/design_1/ip/design_1_FA_2_0/sim/design_1_FA_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_FA_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.ip_user_files/bd/design_1/ip/design_1_FA_3_0/sim/design_1_FA_3_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_FA_3_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.ip_user_files/bd/design_1/ip/design_1_xlslice_0_0/sim/design_1_xlslice_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlslice_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.ip_user_files/bd/design_1/ip/design_1_xlslice_0_1/sim/design_1_xlslice_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlslice_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.ip_user_files/bd/design_1/ip/design_1_xlslice_0_2/sim/design_1_xlslice_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlslice_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.ip_user_files/bd/design_1/ip/design_1_xlslice_0_3/sim/design_1_xlslice_0_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlslice_0_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.ip_user_files/bd/design_1/ip/design_1_xlslice_0_4/sim/design_1_xlslice_0_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlslice_0_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.ip_user_files/bd/design_1/ip/design_1_xlslice_0_5/sim/design_1_xlslice_0_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlslice_0_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.ip_user_files/bd/design_1/ip/design_1_xlslice_0_6/sim/design_1_xlslice_0_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlslice_0_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.ip_user_files/bd/design_1/ip/design_1_xlslice_0_7/sim/design_1_xlslice_0_7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlslice_0_7
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.ip_user_files/bd/design_1/ip/design_1_util_vector_logic_0_0/sim/design_1_util_vector_logic_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_util_vector_logic_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.ip_user_files/bd/design_1/ip/design_1_util_vector_logic_0_1/sim/design_1_util_vector_logic_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_util_vector_logic_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.ip_user_files/bd/design_1/ip/design_1_util_vector_logic_0_2/sim/design_1_util_vector_logic_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_util_vector_logic_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.ip_user_files/bd/design_1/ip/design_1_util_vector_logic_0_3/sim/design_1_util_vector_logic_0_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_util_vector_logic_0_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.ip_user_files/bd/design_1/ip/design_1_util_vector_logic_0_4/sim/design_1_util_vector_logic_0_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_util_vector_logic_0_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.ip_user_files/bd/design_1/ip/design_1_xlconcat_0_0/sim/design_1_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlconcat_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.ip_user_files/bd/design_1/sim/design_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+"xvhdl --incr --relax -prj add4_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'add4'
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1134.906 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.sim/sim_1/behav/xsim'
+"xelab -wto 26974a6b01df438881117b70a05a6825 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlslice_v1_0_2 -L util_vector_logic_v2_0_1 -L xlconcat_v2_1_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot add4_behav xil_defaultlib.add4 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto 26974a6b01df438881117b70a05a6825 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlslice_v1_0_2 -L util_vector_logic_v2_0_1 -L xlconcat_v2_1_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot add4_behav xil_defaultlib.add4 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling module xil_defaultlib.design_1_FA_0_0
+Compiling module xil_defaultlib.design_1_FA_1_0
+Compiling module xil_defaultlib.design_1_FA_2_0
+Compiling module xil_defaultlib.design_1_FA_3_0
+Compiling module util_vector_logic_v2_0_1.util_vector_logic_v2_0_1_util_ve...
+Compiling module xil_defaultlib.design_1_util_vector_logic_0_0
+Compiling module xil_defaultlib.design_1_util_vector_logic_0_1
+Compiling module xil_defaultlib.design_1_util_vector_logic_0_2
+Compiling module xil_defaultlib.design_1_util_vector_logic_0_3
+Compiling module xil_defaultlib.design_1_util_vector_logic_0_4
+Compiling module xlconcat_v2_1_4.xlconcat_v2_1_4_xlconcat(dout_wi...
+Compiling module xil_defaultlib.design_1_xlconcat_0_0
+Compiling module xlslice_v1_0_2.xlslice_v1_0_2_xlslice(DIN_WIDTH...
+Compiling module xil_defaultlib.design_1_xlslice_0_0
+Compiling module xil_defaultlib.design_1_xlslice_0_1
+Compiling module xil_defaultlib.design_1_xlslice_0_2
+Compiling module xil_defaultlib.design_1_xlslice_0_3
+Compiling module xil_defaultlib.design_1_xlslice_0_4
+Compiling module xil_defaultlib.design_1_xlslice_0_5
+Compiling module xil_defaultlib.design_1_xlslice_0_6
+Compiling module xil_defaultlib.design_1_xlslice_0_7
+Compiling module xil_defaultlib.design_1
+Compiling module xil_defaultlib.design_1_wrapper
+Compiling architecture behavioral of entity xil_defaultlib.add4
+Built simulation snapshot add4_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "add4_behav -key {Behavioral:sim_1:Functional:add4} -tclbatch {add4.tcl} -protoinst "protoinst_files/design_1.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_1.protoinst
+Time resolution is 1 ps
+source add4.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'add4_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1134.906 ; gain = 0.000
+add_bp {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd} 43
+add_bp {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd} 44
+add_bp {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd} 45
+add_bp {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd} 46
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'add4'
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Runs 36-567] Checking/generating simulation output products for IPs/BDs (if any)...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2021.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'add4' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj add4_vlog.prj"
+"xvhdl --incr --relax -prj add4_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.sim/sim_1/behav/xsim'
+"xelab -wto 26974a6b01df438881117b70a05a6825 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlslice_v1_0_2 -L util_vector_logic_v2_0_1 -L xlconcat_v2_1_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot add4_behav xil_defaultlib.add4 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto 26974a6b01df438881117b70a05a6825 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlslice_v1_0_2 -L util_vector_logic_v2_0_1 -L xlconcat_v2_1_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot add4_behav xil_defaultlib.add4 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "add4_behav -key {Behavioral:sim_1:Functional:add4} -tclbatch {add4.tcl} -protoinst "protoinst_files/design_1.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_1.protoinst
+Time resolution is 1 ps
+source add4.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Stopped at time : 0 fs : File "C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd" Line 43
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'add4_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1134.906 ; gain = 0.000
+remove_bps -file {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd} -line 46
+remove_bps -file {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd} -line 45
+remove_bps -file {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd} -line 44
+remove_bps -file {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd} -line 43
+add_bp {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd} 45
+remove_bps -file {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd} -line 45
+add_bp {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd} 43
+add_bp {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd} 44
+add_bp {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd} 45
+add_bp {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd} 46
+remove_bps -file {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd} -line 44
+remove_bps -file {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd} -line 45
+remove_bps -file {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd} -line 46
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'add4'
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Runs 36-567] Checking/generating simulation output products for IPs/BDs (if any)...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2021.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'add4' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj add4_vlog.prj"
+"xvhdl --incr --relax -prj add4_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.sim/sim_1/behav/xsim'
+"xelab -wto 26974a6b01df438881117b70a05a6825 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlslice_v1_0_2 -L util_vector_logic_v2_0_1 -L xlconcat_v2_1_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot add4_behav xil_defaultlib.add4 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto 26974a6b01df438881117b70a05a6825 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlslice_v1_0_2 -L util_vector_logic_v2_0_1 -L xlconcat_v2_1_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot add4_behav xil_defaultlib.add4 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "add4_behav -key {Behavioral:sim_1:Functional:add4} -tclbatch {add4.tcl} -protoinst "protoinst_files/design_1.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_1.protoinst
+Time resolution is 1 ps
+source add4.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Stopped at time : 0 fs : File "C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd" Line 43
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'add4_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 1134.906 ; gain = 0.000
+remove_bps -file {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd} -line 43
+add_bp {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd} 44
+add_bp {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd} 46
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'add4'
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Runs 36-567] Checking/generating simulation output products for IPs/BDs (if any)...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2021.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'add4' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj add4_vlog.prj"
+"xvhdl --incr --relax -prj add4_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.sim/sim_1/behav/xsim'
+"xelab -wto 26974a6b01df438881117b70a05a6825 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlslice_v1_0_2 -L util_vector_logic_v2_0_1 -L xlconcat_v2_1_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot add4_behav xil_defaultlib.add4 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto 26974a6b01df438881117b70a05a6825 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlslice_v1_0_2 -L util_vector_logic_v2_0_1 -L xlconcat_v2_1_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot add4_behav xil_defaultlib.add4 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "add4_behav -key {Behavioral:sim_1:Functional:add4} -tclbatch {add4.tcl} -protoinst "protoinst_files/design_1.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_1.protoinst
+Time resolution is 1 ps
+source add4.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Stopped at time : 10 ns : File "C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd" Line 44
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'add4_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:12 . Memory (MB): peak = 1134.906 ; gain = 0.000
+remove_bps -file {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd} -line 44
+remove_bps -file {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd} -line 46
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'add4'
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Runs 36-567] Checking/generating simulation output products for IPs/BDs (if any)...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2021.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'add4' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj add4_vlog.prj"
+"xvhdl --incr --relax -prj add4_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'add4'
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.sim/sim_1/behav/xsim'
+"xelab -wto 26974a6b01df438881117b70a05a6825 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlslice_v1_0_2 -L util_vector_logic_v2_0_1 -L xlconcat_v2_1_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot add4_behav xil_defaultlib.add4 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto 26974a6b01df438881117b70a05a6825 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlslice_v1_0_2 -L util_vector_logic_v2_0_1 -L xlconcat_v2_1_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot add4_behav xil_defaultlib.add4 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling module xil_defaultlib.design_1_FA_0_0
+Compiling module xil_defaultlib.design_1_FA_1_0
+Compiling module xil_defaultlib.design_1_FA_2_0
+Compiling module xil_defaultlib.design_1_FA_3_0
+Compiling module util_vector_logic_v2_0_1.util_vector_logic_v2_0_1_util_ve...
+Compiling module xil_defaultlib.design_1_util_vector_logic_0_0
+Compiling module xil_defaultlib.design_1_util_vector_logic_0_1
+Compiling module xil_defaultlib.design_1_util_vector_logic_0_2
+Compiling module xil_defaultlib.design_1_util_vector_logic_0_3
+Compiling module xil_defaultlib.design_1_util_vector_logic_0_4
+Compiling module xlconcat_v2_1_4.xlconcat_v2_1_4_xlconcat(dout_wi...
+Compiling module xil_defaultlib.design_1_xlconcat_0_0
+Compiling module xlslice_v1_0_2.xlslice_v1_0_2_xlslice(DIN_WIDTH...
+Compiling module xil_defaultlib.design_1_xlslice_0_0
+Compiling module xil_defaultlib.design_1_xlslice_0_1
+Compiling module xil_defaultlib.design_1_xlslice_0_2
+Compiling module xil_defaultlib.design_1_xlslice_0_3
+Compiling module xil_defaultlib.design_1_xlslice_0_4
+Compiling module xil_defaultlib.design_1_xlslice_0_5
+Compiling module xil_defaultlib.design_1_xlslice_0_6
+Compiling module xil_defaultlib.design_1_xlslice_0_7
+Compiling module xil_defaultlib.design_1
+Compiling module xil_defaultlib.design_1_wrapper
+Compiling architecture behavioral of entity xil_defaultlib.add4
+Built simulation snapshot add4_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "add4_behav -key {Behavioral:sim_1:Functional:add4} -tclbatch {add4.tcl} -protoinst "protoinst_files/design_1.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_1.protoinst
+Time resolution is 1 ps
+source add4.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'add4_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:12 . Memory (MB): peak = 1134.906 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Nov  1 04:25:39 2022...

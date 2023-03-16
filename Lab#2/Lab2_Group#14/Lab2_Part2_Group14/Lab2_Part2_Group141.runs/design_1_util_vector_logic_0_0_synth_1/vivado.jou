@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Tue Nov  1 00:47:00 2022
+# Process ID: 22144
+# Current directory: C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group141/Lab2_Part2_Group141.runs/design_1_util_vector_logic_0_0_synth_1
+# Command line: vivado.exe -log design_1_util_vector_logic_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_util_vector_logic_0_0.tcl
+# Log file: C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group141/Lab2_Part2_Group141.runs/design_1_util_vector_logic_0_0_synth_1/design_1_util_vector_logic_0_0.vds
+# Journal file: C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group141/Lab2_Part2_Group141.runs/design_1_util_vector_logic_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_util_vector_logic_0_0.tcl -notrace

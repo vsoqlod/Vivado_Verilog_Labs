@@ -1,0 +1,51 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Tue Nov  1 04:14:50 2022
+# Process ID: 25396
+# Current directory: C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21260 C:\Users\vsoql\OneDrive\Desktop\CECS341\Xilinx stuff\Lab2_Part2_Group14\Lab2_Part2_Group141.xpr
+# Log file: C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/vivado.log
+# Journal file: C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source add4.tcl
+add_bp {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd} 43
+add_bp {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd} 44
+add_bp {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd} 45
+add_bp {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd} 46
+close_sim
+launch_simulation
+source add4.tcl
+remove_bps -file {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd} -line 46
+remove_bps -file {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd} -line 45
+remove_bps -file {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd} -line 44
+remove_bps -file {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd} -line 43
+add_bp {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd} 45
+remove_bps -file {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd} -line 45
+add_bp {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd} 43
+add_bp {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd} 44
+add_bp {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd} 45
+add_bp {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd} 46
+remove_bps -file {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd} -line 44
+remove_bps -file {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd} -line 45
+remove_bps -file {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd} -line 46
+close_sim
+launch_simulation
+source add4.tcl
+remove_bps -file {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd} -line 43
+add_bp {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd} 44
+add_bp {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd} 46
+close_sim
+launch_simulation
+source add4.tcl
+remove_bps -file {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd} -line 44
+remove_bps -file {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part2_Group14/Lab2_Part2_Group141.srcs/sim_1/new/add4.vhd} -line 46
+close_sim
+launch_simulation
+source add4.tcl
+close_sim

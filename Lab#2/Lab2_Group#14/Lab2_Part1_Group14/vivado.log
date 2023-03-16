@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Tue Nov  1 04:26:40 2022
+# Process ID: 39716
+# Current directory: C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part1_Group14
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13884 C:\Users\vsoql\OneDrive\Desktop\CECS341\Xilinx stuff\Lab2_Part1_Group14\Lab2_Part1_Group14.xpr
+# Log file: C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part1_Group14/vivado.log
+# Journal file: C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part1_Group14\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part1_Group14/Lab2_Part1_Group14.xpr}
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part1_Group14/Lab2_Part1_Group14.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:07 . Memory (MB): peak = 1136.832 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'logic_circuit_testbench'
+boost::filesystem::remove: 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다: "C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part1_Group14/Lab2_Part1_Group14.sim/sim_1/behav/xsim/simulate.log"
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'logic_circuit_testbench'
+boost::filesystem::remove: 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다: "C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part1_Group14/Lab2_Part1_Group14.sim/sim_1/behav/xsim/simulate.log"
+close_project
+open_project {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part1_Group14/Lab2_Part1_Group14.xpr}
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part1_Group14/Lab2_Part1_Group14.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'logic_circuit_testbench'
+boost::filesystem::remove: 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다: "C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part1_Group14/Lab2_Part1_Group14.sim/sim_1/behav/xsim/simulate.log"
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Nov  1 04:27:46 2022...

@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Tue Nov  1 04:26:40 2022
+# Process ID: 39716
+# Current directory: C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part1_Group14
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13884 C:\Users\vsoql\OneDrive\Desktop\CECS341\Xilinx stuff\Lab2_Part1_Group14\Lab2_Part1_Group14.xpr
+# Log file: C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part1_Group14/vivado.log
+# Journal file: C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part1_Group14\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part1_Group14/Lab2_Part1_Group14.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+close_project
+open_project {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab2_Part1_Group14/Lab2_Part1_Group14.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
