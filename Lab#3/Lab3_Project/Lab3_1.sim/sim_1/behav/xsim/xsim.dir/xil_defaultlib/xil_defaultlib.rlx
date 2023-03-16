@@ -1,0 +1,10 @@
+0.7
+2020.2
+Jun 10 2021
+20:04:57
+C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab3_1/Lab3_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v,1670589037,verilog,,,,design_1_wrapper,,,,,,,,
+C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab3_1/Lab3_1.ip_user_files/bd/design_1/ip/design_1_ALU_0_0/sim/design_1_ALU_0_0.v,1670589037,verilog,,C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab3_1/Lab3_1.ip_user_files/bd/design_1/sim/design_1.v,,design_1_ALU_0_0,,,,,,,,
+C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab3_1/Lab3_1.ip_user_files/bd/design_1/sim/design_1.v,1670589037,verilog,,C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab3_1/Lab3_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v,,design_1,,,,,,,,
+C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab3_1/Lab3_1.sim/sim_1/behav/xsim/glbl.v,1623370582,verilog,,,,glbl,,,,,,,,
+C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab3_1/Lab3_1.srcs/sim_1/new/ALU_tb.vhd,1670807856,vhdl,,,,alu_tb,,,,,,,,
+C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab3_1/Lab3_1.srcs/sources_1/new/ALU.vhd,1670827349,vhdl,,,,alu,,,,,,,,

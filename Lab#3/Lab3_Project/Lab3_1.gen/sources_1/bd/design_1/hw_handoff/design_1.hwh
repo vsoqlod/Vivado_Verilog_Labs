@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Fri Dec  9 04:30:37 2022" VIVADOVERSION="2021.1">
+
+  <SYSTEMINFO ARCH="kintex7" DEVICE="7k70t" NAME="design_1" PACKAGE="fbv676" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" LEFT="31" NAME="A" RIGHT="0" SIGIS="data" SIGNAME="External_Ports_A">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ALU_0" PORT="A"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="31" NAME="B" RIGHT="0" SIGIS="data" SIGNAME="External_Ports_B">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ALU_0" PORT="B"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="3" NAME="ALUCntl" RIGHT="0" SIGIS="data" SIGNAME="External_Ports_ALUCntl">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ALU_0" PORT="ALUCntl"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="0" NAME="Carryin" RIGHT="0" SIGIS="data" SIGNAME="External_Ports_Carryin">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ALU_0" PORT="Carryin"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="ALUout" RIGHT="0" SIGIS="data" SIGNAME="ALU_0_ALUout">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ALU_0" PORT="ALUout"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="0" NAME="Zero" RIGHT="0" SIGIS="data" SIGNAME="ALU_0_Zero">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ALU_0" PORT="Zero"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="0" NAME="Carryout" RIGHT="0" SIGIS="data" SIGNAME="ALU_0_Carryout">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ALU_0" PORT="Carryout"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="0" NAME="Overflow" RIGHT="0" SIGIS="data" SIGNAME="ALU_0_Overflow">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ALU_0" PORT="Overflow"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="1" FULLNAME="/ALU_0" HWVERSION="1.0" INSTANCE="ALU_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ALU" VLNV="xilinx.com:module_ref:ALU:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_ALU_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="31" NAME="A" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_A">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="A"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="B" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_B">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="ALUCntl" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_ALUCntl">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="ALUCntl"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="Carryin" SIGIS="undef" SIGNAME="External_Ports_Carryin">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Carryin"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="ALUout" RIGHT="0" SIGIS="undef" SIGNAME="ALU_0_ALUout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="ALUout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Zero" SIGIS="undef" SIGNAME="ALU_0_Zero">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Zero"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Carryout" SIGIS="undef" SIGNAME="ALU_0_Carryout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Carryout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Overflow" SIGIS="undef" SIGNAME="ALU_0_Overflow">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Overflow"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

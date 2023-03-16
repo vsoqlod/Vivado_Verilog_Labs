@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sun Dec 11 22:19:24 2022
+# Process ID: 10728
+# Current directory: C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab3_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24436 C:\Users\vsoql\OneDrive\Desktop\CECS341\Xilinx stuff\Lab3_1\Lab3_1.xpr
+# Log file: C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab3_1/vivado.log
+# Journal file: C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab3_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab3_1/Lab3_1.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab3_1/ALU_tb_behav.wcfg}
+source ALU_tb.tcl
+close_sim
+launch_simulation
+open_wave_config {C:/Users/vsoql/OneDrive/Desktop/CECS341/Xilinx stuff/Lab3_1/ALU_tb_behav.wcfg}
+source ALU_tb.tcl
+close_sim
